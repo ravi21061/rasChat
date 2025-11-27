@@ -1,2 +1,7 @@
-const Home = () => <h2>Home Page</h2>;
-export default Home;
+export default function Home() {
+  return (
+    <>
+      <h2 style={{ textAlign: "center" }}>Welcome to rasChat Application!</h2>
+    </>
+  );
+}
